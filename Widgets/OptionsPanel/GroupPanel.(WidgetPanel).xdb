@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>GroupPanel</Name>
+	<Children>
+		<Item href="GroupContainer.(WidgetScrollableContainer).xdb#xpointer(/WidgetScrollableContainer)" />
+		<Item href="GroupPanelHeader.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	</Children>
+	<BackLayer href="textures/GroupFrame.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+	<FrontLayer href="textures/GroupShade.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+	<Placement>
+		<sizingWidget href="" />
+		<sizingWidgets>
+			<Item href="GroupContainer.(WidgetScrollableContainer).xdb#xpointer(/WidgetScrollableContainer)" />
+		</sizingWidgets>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Sizing>WIDGET_SIZING_DEFAULT</Sizing>
+			<Pos>0</Pos>
+			<Size>0</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Sizing>WIDGET_SIZING_CHILDREN</Sizing>
+			<Pos>0</Pos>
+			<Size>0</Size>
+		</Y>
+	</Placement>
+	<Visible>false</Visible>
+	<PickChildrenOnly>true</PickChildrenOnly>
+</WidgetPanel>

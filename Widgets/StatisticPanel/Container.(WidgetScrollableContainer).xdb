@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetScrollableContainer>
+	<Name>Container</Name>
+	<Priority>0</Priority>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Pos>12</Pos>
+			<Size>0</Size>
+			<HighPos>15</HighPos>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Pos>35</Pos>
+			<HighPos>50</HighPos>
+		</Y>
+	</Placement>
+	<PickChildrenOnly>true</PickChildrenOnly>
+	<IgnoreDblClick>true</IgnoreDblClick>
+	<border href="Border.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	<widgetsArrangement>WIDGETS_ARRANGEMENT_T2B</widgetsArrangement>
+	<scrollBar href="GlideScrollBar/GlideScrollBar.(WidgetGlideScrollBar).xdb#xpointer(/WidgetGlideScrollBar)" />
+	<pickObjectsOnly>true</pickObjectsOnly>
+</WidgetScrollableContainer>

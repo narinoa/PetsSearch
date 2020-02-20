@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>EditorPanel</Name>
+	<Children>
+		<Item href="ButtonClose.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="SortButton.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="HeaderText.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="ButtonOK.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="ButtonCancel.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="ButtonAccept.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="EditLineBG.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	</Children>
+	<BackLayer href="Textures/MainFrame.(WidgetLayerTiledTexture).xdb" />
+<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>470</Size>
+			<Pos>150</Pos>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>180</Size>
+		</Y>
+	</Placement>
+	<TransparentInput>false</TransparentInput>
+	<clipContent>false</clipContent>
+	<Visible>false</Visible>
+</WidgetPanel>

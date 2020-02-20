@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+  <Name>ButtonEdit</Name>
+  <Placement>
+    <X>
+      <Align>WIDGET_ALIGN_HIGH</Align>
+      <HighPos>7</HighPos>
+      <Size>32</Size>
+    </X>
+    <Y>
+	  <Align>WIDGET_ALIGN_CENTER</Align>	
+      <Size>32</Size>
+	  <HighPos>0</HighPos>
+    </Y>
+  </Placement>
+  <IgnoreDblClick>true</IgnoreDblClick>
+  <Variants>
+    <Item>
+	<StateNormal>
+		<LayerMain href="Textures/ButtonEditNormal.(WidgetLayerSimpleTexture).xdb" />
+	</StateNormal>
+	<StatePushed>
+		<LayerMain href="Textures/ButtonEditPressed.(WidgetLayerSimpleTexture).xdb" />
+	</StatePushed>
+	<StateHighlighted>
+	<LayerMain href="Textures/ButtonEditOver.(WidgetLayerSimpleTexture).xdb" />
+	</StateHighlighted>
+	<StatePushedHighlighted>
+		<LayerMain href="Textures/ButtonEditPressedHighlighted.(WidgetLayerSimpleTexture).xdb" />
+	</StatePushedHighlighted> 
+      <Reaction>ButtonReaction</Reaction>
+      <ReactionOnUp>true</ReactionOnUp>
+	  
+    </Item>
+  </Variants>
+  <Visible>false</Visible>
+</WidgetButton>

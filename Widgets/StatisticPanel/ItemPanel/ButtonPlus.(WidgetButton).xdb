@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+  <Name>ButtonPlus</Name>
+  <Placement>
+    <X>
+      <Align>WIDGET_ALIGN_HIGH</Align>
+      <HighPos>125</HighPos>
+      <Size>25</Size>
+    </X>
+    <Y>
+	  <Align>WIDGET_ALIGN_CENTER</Align>	
+      <Size>25</Size>
+	   <PosY>3</PosY>
+	  <HighPos>0</HighPos>
+    </Y>
+  </Placement>
+  <IgnoreDblClick>true</IgnoreDblClick>
+  <Variants>
+    <Item>
+      <LayerHighlight href="Textures/ButtonHighlighted.(WidgetLayerSimpleTexture).xdb" />
+      <StateNormal>
+        <LayerMain href="Textures/ButtonPlusNormal.(WidgetLayerSimpleTexture).xdb" />
+      </StateNormal>
+      <StatePushed>
+        <LayerMain href="Textures/ButtonPlusPressed.(WidgetLayerSimpleTexture).xdb" />
+      </StatePushed>
+      <Reaction>ButtonReaction</Reaction>
+      <ReactionOnUp>true</ReactionOnUp>
+	  
+    </Item>
+  </Variants>
+  <Visible>false</Visible>
+</WidgetButton>

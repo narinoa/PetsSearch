@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>ObjectButtonTemplate</Name>
+	<Priority>11001</Priority>
+	<BackLayer href="Textures/ObjectButtonLayerBackground.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+	<Placement>
+		<X>
+			<Size>15</Size>
+		</X>
+		<Y>
+			<Size>15</Size>
+		</Y>
+	</Placement>
+	<Enabled>true</Enabled>
+	<Visible>false</Visible>
+	<IgnoreDblClick>false</IgnoreDblClick>
+	<TransparentInput>false</TransparentInput>
+	<Variants>
+		<Item>
+			<LayerHighlight href="Textures/ObjectButtonLayerHighlight.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			<ReactionOnUp>true</ReactionOnUp>
+		</Item>
+	</Variants>
+	<reactionOnPointing>over_mouse</reactionOnPointing>
+</WidgetButton>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+  <Name>ButtonMinus</Name>
+  <Placement>
+    <X>
+      <Align>WIDGET_ALIGN_HIGH</Align>
+      <HighPos>211</HighPos>
+      <Size>25</Size>
+    </X>
+    <Y>
+	  <Align>WIDGET_ALIGN_CENTER</Align>	
+      <Size>25</Size>
+	  <PosY>3</PosY>
+	  <HighPos>0</HighPos>
+    </Y>
+  </Placement>
+  <IgnoreDblClick>true</IgnoreDblClick>
+  <Variants>
+    <Item>
+      <LayerHighlight href="Textures/ButtonHighlighted.(WidgetLayerSimpleTexture).xdb" />
+      <StateNormal>
+        <LayerMain href="Textures/ButtonMinusNormal.(WidgetLayerSimpleTexture).xdb" />
+      </StateNormal>
+      <StatePushed>
+        <LayerMain href="Textures/ButtonMinusPressed.(WidgetLayerSimpleTexture).xdb" />
+      </StatePushed>
+      <Reaction>ButtonReaction</Reaction>
+      <ReactionOnUp>true</ReactionOnUp>
+	  
+    </Item>
+  </Variants>
+  <Visible>false</Visible>
+</WidgetButton>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIRelatedSounds>
+	<Items>
+		<Item>
+			<name>Sound1</name>
+			<resource>
+				<project href="/SFX/Interface/Interface.(FMODProject).xdb#xpointer(/FMODProject)" />
+				<name>/Interface/Quest/QuestSecretWorldObjectiveComplite</name>
+			</resource>
+		</Item>
+		<Item>
+			<name>Sound2</name>
+			<resource>
+				<project href="/SFX/Interface/Interface.(FMODProject).xdb#xpointer(/FMODProject)" />
+				<name>/Interface/RouletteBox/Win</name>
+			</resource>
+		</Item>
+		<Item>
+			<name>Sound3</name>
+			<resource>
+				<project href="/SFX/Interface/Interface.(FMODProject).xdb#xpointer(/FMODProject)" />
+				<name>/Interface/RouletteBox/BonusGame</name>
+			</resource>
+		</Item>	
+	</Items>
+</UIRelatedSounds>

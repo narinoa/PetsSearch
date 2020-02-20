@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>ButtonCancel</Name>
+	<Header>
+		<Prototype href="/Mods/SampleCommon/Button/ButtonRegular.Prototype.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+	</Header>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_HIGH</Align>
+			<HighPos>115</HighPos>
+			<Size>100</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_HIGH</Align>
+			<HighPos>12</HighPos>
+			<Size>32</Size>
+		</Y>
+	</Placement>
+	<Variants>
+		<Item>
+			<Reaction>ButtonReaction</Reaction>
+		</Item>
+	</Variants>
+</WidgetButton>

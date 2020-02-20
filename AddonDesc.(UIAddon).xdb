@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIAddon>
+  <Name>PetSearch</Name>
+  <AutoStart>true</AutoStart>
+  <ScriptFileRefs>
+  	<Item href="/Mods/SampleCommon/SampleAddonBase.lua"/>
+	<Item href="Scripts/Localization.lua"/>
+	<Item href="config.txt"/>
+	<Item href="Scripts/LibDnD.lua" />
+    <Item href="Scripts/mainscript.lua"/>
+  </ScriptFileRefs>
+   <localizedNameFileRef href="name.txt"/><localizedDescFileRef href="desc.txt"/>
+   	<MainFormId>Main</MainFormId>
+	<Forms>
+		<Item>
+			<Id>Main</Id>
+			<Form href="Widgets/MainForm.(WidgetForm).xdb#xpointer(/WidgetForm)"/>
+		</Item>
+	</Forms>
+	<soundsGroups>
+		<Item>
+			<groupName>Sound</groupName>
+			<sounds href="Sound/Sound.(UIRelatedSounds).xdb#xpointer(/UIRelatedSounds)"/>
+		</Item>
+	</soundsGroups>
+	<textures href="Widgets/Textures/RelatedTargets.(UIRelatedTextures).xdb#xpointer(/UIRelatedTextures)"/>
+</UIAddon>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UITexture>
+	<mipSW>-1</mipSW>
+	<mipsNumber>1</mipsNumber>
+	<generateMipChain>false</generateMipChain>
+	<type>DXT5</type>
+	<width>512</width>
+	<height>256</height>
+	<realWidth>276</realWidth>
+	<realHeight>166</realHeight>
+	<disableLODControl>false</disableLODControl>
+	<alphaTex>true</alphaTex>
+	<binaryFileSize>9722</binaryFileSize>
+	<binaryFile href="GroupFrame.(UITexture).bin" />
+	<wrap>false</wrap>
+	<LocalizationInfo />
+	<pool>UNDEFINED</pool>
+</UITexture>

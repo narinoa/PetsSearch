@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetTextView>
+	<Name>Text</Name>
+	<Priority>52</Priority>
+	<Placement>
+		<QuantumScale>false</QuantumScale>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Sizing>WIDGET_SIZING_INTERNAL</Sizing>
+			<Pos>50</Pos>
+			<HighPos>30</HighPos>
+			<Size>1080</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Sizing>WIDGET_SIZING_INTERNAL</Sizing>
+			<Pos>-4</Pos>
+			<HighPos>0</HighPos>
+		</Y>
+	</Placement>
+	<Enabled>true</Enabled>
+	<Visible>true</Visible>
+	<TransparentInput>true</TransparentInput>
+	<FormatFileRef href="Text.txt" />
+	<TextValues />
+	<TextStyle>
+		<multiline>false</multiline>
+		<wrapText>false</wrapText>
+		<showClippedSymbol>true</showClippedSymbol>
+		<ellipsis>false</ellipsis>
+	</TextStyle>
+	<minWidth>100</minWidth>
+	<maxWidth>1200</maxWidth>
+</WidgetTextView>

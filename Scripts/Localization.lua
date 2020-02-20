@@ -1,0 +1,93 @@
+Global("localization", nil)
+
+Global("Locales", {
+	["rus"] = { -- Russian, Win-1251
+    ["Settings"] = "Настройки",
+    ["Search"] = "Поиск питомцев",
+    ["BuffName"] = "Можно приручить",
+    ["ItemName"] = "Усмиритель",
+    ["Category"] = "Питомцы",
+    ["SubCategory"] = "Дикие питомцы",
+	["FastTakePet"] = "Кастовать усмиритель сразу при взятии в цель",
+	["UseMapMark"] = "Показывать точки питомцев на большой карте",
+	["UseMiniMapMark"] = "Показывать точки питомцев на мини-карте",
+	["UseZoneInfo"] = "Показывать питомцев на текущей локации",
+	["ShowAlert"] = "Показывать оповещение об поиске питомца",
+	["PlaySound"] = "Звук при респавне питомца рядом",
+	["TimeToHunt"] = "Пора ловить питомца!",
+	["Statistic"] = "Статистика питомцев",
+	["Server"] = "Сервер",
+	["Pet"] = "Питомец",
+	["Time"] = "Респавн",
+	["Attempts"] = "Попыток",
+	["Achive"] = "Поймано",
+	["Edit"] = "Ред.",
+	["EditHeader"] = "Редактировтать",
+	["AcceptKey"] = "Применить",
+	["CancelKey"] = "Отменить",
+	["CatchFail"] = "Питомец сбежал.",
+	["CatchSuccess"] = "Успех! Вы поймали питомца!",
+	--season 1
+    ["King Wolf Cub"] = "Царь-волчонок",
+    ["Eagle"] = "Орлан",
+    ["Dewy-Eyed Fawn"] = "Доверчивый оленёнок",
+    ["Squirrel"] = "Белочка",
+    ["Holy Gobly"] = "Святой гоблин",
+    ["Russula"] = "Поганка",
+    ["Crayfish"] = "Рак-свистун",
+    ["Dolly"] = "Маленькая овечка",
+    ["Warlike Lizard"] = "Воинственный ящер",
+    ["Lonesome Ghoul"] = "Одинокое умертвие",
+    ["Tiger Cat"] = "Тигровый кот",
+    ["Genlun’s Minion"] = "Служка Генлуна",
+    ["Sly Foxie"] = "Кумушка-лиса",
+    ["Honey Bee"] = "Медовая пчела",
+    ["Midget Clown"] = "Карлик-клоун",
+    ["Friendly Slug"] = "Дружелюбный слизень",
+    ["Eye of the Sculptor"] = "Око Ваятеля",
+    ["Echidna"] = "Ехидна",
+    ["Gastornis Nestling"] = "Птенец гасторниса",
+    ["Scaly Bird"] = "Птицеящер",
+	--season 2
+	["Miniature Hut"] = "Мини-избушка",
+	["Oak Golem"] = "Дубовый голем",
+	["Goblin Boffin"] = "Гоблин-изобретатель",
+	["Nymph"] = "Нимфа",
+	["Gentleman Dove"] = "Голубь-джентльмен",
+	},
+		
+	["eng_eu"] = { -- English, Latin-1
+    ["Settings"] = "Settings",
+	["Search"] = "Search pets",
+    ["BuffName"] = "Tameable",
+	["ItemName"] = "Tamer",
+    ["Category"] = "Pets",
+    ["SubCategory"] = "Wild Pets",
+	["FastTakePet"] = "Cast a tamer when taking a target",
+	["UseMapMark"] = "Show pet points on main map",
+	["UseMiniMapMark"] = "Show pet points on mini-map",
+	["UseZoneInfo"] = "Show pets on current location",
+	["ShowAlert"] = "Show pet search alert",
+	["PlaySound"] = "Pet respawning sound",
+	["TimeToHunt"] = "Time to look for a pet!",
+	["Statistic"] = "Pet statistic",
+	["Server"] = "Server",
+	["Pet"] = "Name",
+	["Time"] = "Time",
+	["Attempts"] = "Attempts",
+	["Achive"] = "Achive",
+	["Edit"] = "Edit",
+	["EditHeader"] = "Editor",
+	["AcceptKey"] = "Accept",
+	["CancelKey"] = "Cancel",
+	["CatchFail"] = "The pet has escaped.",
+	["CatchSuccess"] = "Success! You trapped the pet!",
+
+	}
+})
+
+--We can now use an official method to get the client language
+localization = common.GetLocalization()
+function GTL( strTextName )
+	return Locales[ localization ][ strTextName ] or Locales[ "eng_eu" ][ strTextName ] or strTextName
+end

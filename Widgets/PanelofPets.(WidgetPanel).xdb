@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>PanelofPets</Name>
+	<Children>
+		<Item href="PetIcon.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+		<Item href="PetDesc.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="Text.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+	</Children>
+<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_HIGH</Align>
+			<Size>256</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_HIGH</Align>
+			<Size>256</Size>
+		</Y>
+	</Placement>
+	<TransparentInput>false</TransparentInput>
+	<clipContent>false</clipContent>
+	<Visible>false</Visible>
+</WidgetPanel>

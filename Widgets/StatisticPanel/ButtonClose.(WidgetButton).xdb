@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+  <Name>ButtonCloseStatistic</Name>
+  <BackLayer href="../Textures/GoldenCorner.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+  <Placement>
+    <X>
+      <Align>WIDGET_ALIGN_HIGH</Align>
+      <HighPos>3</HighPos>
+      <Size>37</Size>
+    </X>
+    <Y>
+      <Size>37</Size>
+	  <HighPos>-7</HighPos>
+    </Y>
+  </Placement>
+  <IgnoreDblClick>true</IgnoreDblClick>
+  <Variants>
+    <Item>
+      <LayerHighlight href="../Textures/CornerCrossHighlight.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      <StateNormal>
+        <LayerMain href="../Textures/CornerCrossNormal.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      </StateNormal>
+      <StatePushed>
+        <LayerMain href="../Textures/CornerCrossPressed.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+      </StatePushed>
+      <Reaction>ButtonReaction</Reaction>
+      <ReactionOnUp>true</ReactionOnUp>
+    </Item>
+  </Variants>
+</WidgetButton>

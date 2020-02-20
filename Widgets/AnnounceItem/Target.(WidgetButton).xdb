@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>Target</Name>
+	<Priority>53</Priority>
+	<BackLayer href="Textures/TargetButtonLayerBackground.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+	<FrontLayer href="Textures/TargetButtonLayerForeground.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Size>40</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Pos>2</Pos>
+			<Size>40</Size>
+		</Y>
+	</Placement>
+	<Enabled>true</Enabled>
+	<Visible>true</Visible>
+	<IgnoreDblClick>true</IgnoreDblClick>
+	<TransparentInput>false</TransparentInput>
+	<Variants>
+		<Item>
+			<LayerHighlight href="Textures/TargetButtonLayerHighlight.(WidgetLayerSimpleTexture).xdb#xpointer(/WidgetLayerSimpleTexture)" />
+			<ReactionOnUp>true</ReactionOnUp>
+			<Reaction>target_click</Reaction>
+		</Item>
+	</Variants>
+</WidgetButton>

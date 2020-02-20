@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetTextView>
+<Name>Text</Name>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>200</Size>
+		</X>
+		<Y>
+			<Size>60</Size>
+			<Pos>40</Pos>
+		</Y>
+	</Placement>
+	<FormatFileRef href="Text.txt" />
+	<TextStyle>
+		<multiline>true</multiline>
+	</TextStyle>
+	<TransparentInput>true</TransparentInput>
+</WidgetTextView>

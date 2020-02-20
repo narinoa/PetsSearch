@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>ItemPanel</Name>
+	<Children>
+		<Item href="Shard.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="Name.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="Timer.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="Attempts.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="Achive.(WidgetTextView).xdb#xpointer(/WidgetTextView)" />
+		<Item href="ButtonMinus.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="ButtonPlus.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+		<Item href="ButtonEdit.(WidgetButton).xdb#xpointer(/WidgetButton)" />
+	</Children>
+	<BackLayer href="Textures/Slot.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_BOTH</Align>
+			<Pos>5</Pos>
+			<HighPos>25</HighPos>
+
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Size>35</Size>
+		</Y>
+	</Placement>
+	<Visible>false</Visible>
+</WidgetPanel>

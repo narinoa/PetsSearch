@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<UIRelatedTextures>
+	<Items>
+		<Item>
+		<name>Empty</name>
+		<textureItem href="Empty.(UITextureElement).xdb#xpointer(/UITextureElement)"/>
+		</Item>
+		<Item>
+		<name>Arrow</name>
+		<textureItem href="Arrow.(UITextureElement).xdb#xpointer(/UITextureElement)"/>
+		</Item>
+	</Items>
+</UIRelatedTextures>

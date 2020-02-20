@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetPanel>
+	<Name>PanelTarget</Name>
+	<Children>
+		<Item href="Target.(WidgetPanel).xdb#xpointer(/WidgetPanel)" />
+	</Children>
+<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>512</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_CENTER</Align>
+			<Size>512</Size>
+		</Y>
+	</Placement>
+	<TransparentInput>false</TransparentInput>
+	<clipContent>false</clipContent>
+	<Visible>false</Visible>
+</WidgetPanel>

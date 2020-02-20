@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WidgetButton>
+	<Name>SortButton</Name>
+	<Placement>
+		<X>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>250</Pos>
+			<Size>40</Size>
+		</X>
+		<Y>
+			<Align>WIDGET_ALIGN_LOW</Align>
+			<Pos>250</Pos>
+			<Size>32</Size>
+		</Y>
+	</Placement>
+	<Variants>
+		<Item>
+			<StateDisabled>
+				<LayerMain href="ItemPanel/Textures/SortButtonNormal.(WidgetLayerTiledTexture).xdb#xpointer(/WidgetLayerTiledTexture)" />
+				<FormatFileRef href="ButtonFormatNormal.txt" />
+			</StateDisabled>
+			<Reaction>ButtonReaction</Reaction> 
+		</Item>
+	</Variants>
+	<Visible>false</Visible>
+	<Disable>true</Disable>
+	<TextStyle>
+		<Align>ALIGNY_MIDDLE</Align>
+	</TextStyle>
+</WidgetButton>
